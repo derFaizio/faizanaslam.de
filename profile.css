@@ -1,166 +1,180 @@
 /* Global settings */
 * {
-    box-sizing: border-box;
-    padding: 0px;
-    margin: 0px;
-  }
-  
-  .container {
-    height: 100%;
-    min-height: 100vh;
-  }
-  
-  /* Nav Panel */
-  .nav_panel {
-    width: 100%;
-    position: absolute;
-    top: 0px;
-    z-index: 3;
-    background: #c4c4c4;
-  }
-  
-  .icon_box {
-    text-align: right;
-  }
-  
-  .icon_moon {
-    font-size: 2vh;
-    padding-top: 0.5vh;
-    padding-bottom: 0.5vh;
-    margin-right: 2vw;
-  }
-  
-  /* Profile Image */
-  .image_block {
-    position: absolute;
-    top: 35vh;
-    width: 100%;
-    text-align: center;
-    z-index: 3;
-  }
-  
-  img.pro_img {
-    height: 16vh;
-    width: 16vh;
-    background: #c4c4c4;
-    border-radius: 100%;
-    position: absolute;
-    left: 7vh;
-    right: 7vh;
-    top: 7vh;
-  }
-  
-  .pro_img {
-    height: 16vh;
-    width: 16vh;
-    background: #c4c4c4;
-    border-radius: 100%;
-    position: absolute;
-    left: 7vh;
-    right: 7vh;
-    top: 7vh;
-    background-image: url("https://images-na.ssl-images-amazon.com/images/M/MV5BMjEzMjA0ODk1OF5BMl5BanBnXkFtZTcwMTA4ODM3OQ@@._V1_UY256_CR5,0,172,256_AL_.jpg");
-    background-size: cover;
-  }
-  
-  /* Outer profile */
-  .iamge_overlay {
-    background: #fff;
-    width: 30vh;
-    height: 30vh;
-    border-radius: 100%;
-    display: inline-block;
-    box-shadow: 1vh 1vh 5vh rgba(0, 0, 0, 0.47);
-    position: relative;
-  }
-  
-  /* Footer */
-  .footer {
-    width: 100%;
-    position: absolute;
-    bottom: 0px;
-    z-index: 3;
-    background: #c4c4c4;
-  }
-  
-  .text_block {
-    text-align: center;
-    position: relative;
-  }
-  
-  p.footer_text {
-    font-size: 1.5vh;
-    padding: 0.25vh 0px;
-  }
-  
-  /* About Me triangle */
-  .aboutme_triangle {
-    border-left: 50vw solid transparent;
-    border-right: 50vw solid transparent;
-    border-bottom: 49vh solid #89bfac;
-    z-index: 2;
-    position: absolute;
-    margin: 0 auto;
-    bottom: 2vh;
-  }
-  
-  /* resume triangle */
-  .resume_triangle {
-    border-left: 32vw solid transparent;
-    border-right: 32vw solid transparent;
-    border-top: 45vh solid #89bfac;
-    z-index: 2;
-    position: absolute;
-    margin: 0 auto;
-    top: 3vh;
-    left: 18vw;
-  }
-  
-  /* food triangle */
-  .food_triangle {
-    position: absolute;
-    left: 0;
-    top: 50vh;
-    width: 46vw;
-    height: 46vh;
-    border-left: 0vw solid transparent;
-    border-right: 46vw solid transparent;
-    border-top: 46vh solid #89bfac;
-  }
-  
-  /* travel triangle */
-  .travel_triangle {
-    position: absolute;
-    right: 0;
-    top: 50vh;
-    width: 46vw;
-    height: 46vh;
-    border-left: 46vw solid transparent;
-    border-right: 0vw solid transparent;
-    border-top: 46vh solid #89bfac;
-  }
-  
-  /* projects triangle */
-  .projects_triangle {
-    position: absolute;
-    left: 0;
-    bottom: 52vh;
-    width: 46vw;
-    height: 66vh;
-    border-left: 0vw solid transparent;
-    border-right: 46vw solid transparent;
-    border-bottom: 66vh solid #89bfac;
-  }
-  
-  /* blog triangle */
-  .blog_triangle {
-    position: absolute;
-    right: 0;
-    bottom: 52vh;
-    width: 46vw;
-    height: 66vh;
-    border-left: 46vw solid transparent;
-    border-right: 0vw solid transparent;
-    border-bottom: 66vh solid #89bfac;
-  }
-  
+  box-sizing: border-box;
+  padding: 0px;
+  margin: 0px;
+}
+
+.container {
+  height: 100%;
+  min-height: 100vh;
+}
+
+/* Nav Panel */
+.nav_panel {
+  width: 100%;
+  position: absolute;
+  top: 0px;
+  z-index: 3;
+  background: #c4c4c4;
+}
+
+.icon_box {
+  text-align: right;
+}
+
+.icon_moon {
+  font-size: 2vh;
+  padding-top: 0.5vh;
+  padding-bottom: 0.5vh;
+  margin-right: 2vw;
+}
+
+/* Profile Image */
+.image_block {
+  position: absolute;
+  top: 35vh;
+  width: 100%;
+  text-align: center;
+  z-index: 3;
+}
+
+img.pro_img {
+  height: 16vh;
+  width: 16vh;
+  background: #c4c4c4;
+  border-radius: 100%;
+  position: absolute;
+  left: 7vh;
+  right: 7vh;
+  top: 7vh;
+}
+
+.pro_img {
+  height: 16vh;
+  width: 16vh;
+  background: #c4c4c4;
+  border-radius: 100%;
+  position: absolute;
+  left: 7vh;
+  right: 7vh;
+  top: 7vh;
+  background-image: url("https://images-na.ssl-images-amazon.com/images/M/MV5BMjEzMjA0ODk1OF5BMl5BanBnXkFtZTcwMTA4ODM3OQ@@._V1_UY256_CR5,0,172,256_AL_.jpg");
+  background-size: cover;
+}
+
+/* Outer profile */
+.iamge_overlay {
+  background: #fff;
+  width: 30vh;
+  height: 30vh;
+  border-radius: 100%;
+  display: inline-block;
+  box-shadow: 1vh 1vh 5vh rgba(0, 0, 0, 0.47);
+  position: relative;
+}
+
+/* Footer */
+.footer {
+  width: 100%;
+  position: absolute;
+  bottom: 0px;
+  z-index: 3;
+  background: #c4c4c4;
+}
+
+.text_block {
+  text-align: center;
+  position: relative;
+}
+
+p.footer_text {
+  font-size: 1.5vh;
+  padding: 0.25vh 0px;
+}
+
+/* Triangles */
+.triangle {
+  opacity: 0.6;
+}
+
+.triangle:hover {
+  opacity: 1;
+}
+
+/* About Me triangle */
+.aboutme_triangle {
+  border-left: 50vw solid transparent;
+  border-right: 50vw solid transparent;
+  border-bottom: 49vh solid #89bfac;
+  z-index: 2;
+  position: absolute;
+  margin: 0 auto;
+  bottom: 2vh;
+}
+
+/* resume triangle */
+.resume_triangle {
+  z-index: 2;
+  position: absolute;
+  margin: 0 auto;
+  top: 3vh;
+  left: 18vw;
+  width: 64vw;
+  height: 45vh;
+  background-image: url("https://picsum.photos/600/200?random");
+  background-size: 100% 100%;
+  clip-path: polygon(0 0, 50% 100%, 100% 0%);
+}
+
+/* food triangle */
+.food_triangle {
+  z-index: 2;
+  position: absolute;
+  left: 0;
+  top: 50vh;
+  width: 46vw;
+  height: 46vh;
+  background-image: url("images/food.jpg");
+  background-size: 100% 100%;
+  clip-path: polygon(0 0, 0% 100%, 100% 0%);
+}
+
+/* travel triangle */
+.travel_triangle {
+  z-index: 2;
+  position: absolute;
+  right: 0;
+  top: 50vh;
+  width: 46vw;
+  height: 46vh;
+  background-image: url("images/travel.jpg");
+  background-size: 100% 100%;
+  clip-path: polygon(0 0, 100% 100%, 100% 0%);
+}
+
+/* projects triangle */
+.projects_triangle {
+  z-index: 2;
+  position: absolute;
+  left: 0;
+  bottom: 52vh;
+  width: 46vw;
+  height: 66vh;
+  background-image: url("images/projects.jpg");
+  background-size: 100% 100%;
+  clip-path: polygon(0 0, 0 100%, 100% 100%);
+}
+
+/* blog triangle */
+.blog_triangle {
+  z-index: 2;
+  position: absolute;
+  right: 0;
+  bottom: 52vh;
+  width: 46vw;
+  height: 66vh;
+  background-image: url("images/blog.jpg");
+  background-size: 100% 100%;
+  clip-path: polygon(100% 0, 0 100%, 100% 100%);
+}
