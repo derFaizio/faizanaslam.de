@@ -59,12 +59,12 @@ img.pro_img {
   left: 7vh;
   right: 7vh;
   top: 7vh;
-  background-image: url("https://images-na.ssl-images-amazon.com/images/M/MV5BMjEzMjA0ODk1OF5BMl5BanBnXkFtZTcwMTA4ODM3OQ@@._V1_UY256_CR5,0,172,256_AL_.jpg");
+  background-image: url("images/profilePic.png");
   background-size: cover;
 }
 
 /* Outer profile */
-.iamge_overlay {
+.image_overlay {
   background: #fff;
   width: 30vh;
   height: 30vh;
